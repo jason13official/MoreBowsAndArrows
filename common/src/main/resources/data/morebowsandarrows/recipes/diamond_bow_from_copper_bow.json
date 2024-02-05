@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "morebowsandarrows:copper_bow"
+    }
+  },
+  "pattern": [
+    " # ",
+    " X ",
+    " # "
+  ],
+  "result": {
+    "item": "morebowsandarrows:diamond_bow"
+  },
+  "show_notification": true
+}

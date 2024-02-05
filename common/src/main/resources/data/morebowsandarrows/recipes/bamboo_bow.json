@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": [
+      {
+        "item": "minecraft:bamboo_log"
+      },
+      {
+        "item": "minecraft:bamboo_wood"
+      }
+    ],
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " #X",
+    "#WX",
+    " #X"
+  ],
+  "result": {
+    "item": "morebowsandarrows:bamboo_bow"
+  },
+  "show_notification": true
+}

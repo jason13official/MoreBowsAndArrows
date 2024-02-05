@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/stripped_birch_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/stripped_birch_bow_pulling_2"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/stripped_mangrove_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/stripped_mangrove_bow_pulling_1"
+    }
+}

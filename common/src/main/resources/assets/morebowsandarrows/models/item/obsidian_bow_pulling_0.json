@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/obsidian_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/obsidian_bow_pulling_0"
+    }
+}

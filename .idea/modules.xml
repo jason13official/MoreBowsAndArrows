@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/ExampleMod-1.20.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/ExampleMod-1.20.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/ExampleMod-1.20.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/ExampleMod-1.20.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/ExampleMod-1.20.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/ExampleMod-1.20.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/ExampleMod-1.20.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/ExampleMod-1.20.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/ExampleMod-1.20.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/ExampleMod-1.20.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/MonoLibDependent-1.20.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/MonoLibDependent-1.20.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/MonoLibDependent-1.20.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/MonoLibDependent-1.20.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/MonoLibDependent-1.20.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/MonoLibDependent-1.20.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/MonoLibDependent-1.20.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/MonoLibDependent-1.20.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/MonoLibDependent-1.20.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/MonoLibDependent-1.20.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/MoreBowsAndArrows.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/MoreBowsAndArrows.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/MoreBowsAndArrows.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/MoreBowsAndArrows.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/MoreBowsAndArrows.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/MoreBowsAndArrows.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/MoreBowsAndArrows.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/MoreBowsAndArrows.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/MoreBowsAndArrows.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/MoreBowsAndArrows.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/MoreBowsAndArrows.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/MoreBowsAndArrows.forge.test.iml" />
+    </modules>
+  </component>
+</project>

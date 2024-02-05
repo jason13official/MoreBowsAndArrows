@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/lapis_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/lapis_bow_pulling_2"
+    }
+}

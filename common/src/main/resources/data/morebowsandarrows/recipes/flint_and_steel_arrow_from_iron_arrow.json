@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "F",
+      "A"
+      
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "A": {
+      "item": "morebowsandarrows:iron_arrow"
+    }
+  },
+  "result": {
+      "item": "morebowsandarrows:flint_and_steel_arrow",
+      "count": 1
+  }
+}

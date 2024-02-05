@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/stripped_cherry_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/stripped_cherry_bow_pulling_0"
+    }
+}

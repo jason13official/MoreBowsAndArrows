@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/amethyst_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/amethyst_bow_pulling_2"
+    }
+}

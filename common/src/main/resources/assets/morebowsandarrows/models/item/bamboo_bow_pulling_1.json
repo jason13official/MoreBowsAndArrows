@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/bamboo_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/bamboo_bow_pulling_1"
+    }
+}

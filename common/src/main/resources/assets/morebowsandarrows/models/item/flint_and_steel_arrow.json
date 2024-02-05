@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "morebowsandarrows:item/flint_and_steel_arrow"
+  }
+}

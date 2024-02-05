@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/copper_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/copper_bow_pulling_0"
+    }
+}

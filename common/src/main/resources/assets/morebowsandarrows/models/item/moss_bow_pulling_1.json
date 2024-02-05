@@ -1,0 +1,6 @@
+{
+    "parent": "morebowsandarrows:item/moss_bow",
+    "textures": {
+        "layer0": "morebowsandarrows:item/moss_bow_pulling_1"
+    }
+}
