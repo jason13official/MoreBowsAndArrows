@@ -1,6 +1,5 @@
 package net.jason13.morebowsandarrows.item.bow;
 
-import net.jason13.morebowsandarrows.registry.FabricItemRegistry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
@@ -18,6 +17,7 @@ public class AmethystBowItem extends BowItem {
         super(pProperties);
     }
 
+    @Override
     public void appendHoverText(@NotNull ItemStack itemStack, @Nullable Level level, List<Component> tooltip, @NotNull TooltipFlag tooltipFlag) {
         tooltip.add(Component.translatable("morebowsandarrows.text.amethyst_bow_lore"));
         tooltip.add(Component.translatable("morebowsandarrows.text.amethyst_bow_damage"));
@@ -26,6 +26,6 @@ public class AmethystBowItem extends BowItem {
     
     @Override
     public boolean isValidRepairItem(ItemStack pItemStack1, ItemStack pItemStack2) {
-        return (pItemStack1.is(FabricItemRegistry.AMETHYST_BOW)) && (pItemStack2.is(repairItem));
+        return (pItemStack1.is(this)) && (pItemStack2.is(repairItem));
     }
 }

@@ -1,6 +1,27 @@
 {
-    "replace": false,
-    "values": [
-      "morebowsandarrows:amethyst_arrow"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "morebowsandarrows:flint_and_steel_arrow",
+    "morebowsandarrows:ender_pearl_arrow",
+    "morebowsandarrows:tnt_arrow",
+    "morebowsandarrows:paper_arrow",
+    "morebowsandarrows:moss_arrow",
+
+    "morebowsandarrows:amethyst_arrow",
+    "morebowsandarrows:bamboo_arrow",
+    "morebowsandarrows:blaze_rod_arrow",
+    "morebowsandarrows:bone_arrow",
+    "morebowsandarrows:cactus_arrow",
+    "morebowsandarrows:coal_arrow",
+    "morebowsandarrows:emerald_arrow",
+    "morebowsandarrows:lapis_arrow",
+    "morebowsandarrows:obsidian_arrow",
+    "morebowsandarrows:flint_arrow",
+
+    "morebowsandarrows:iron_arrow",
+    "morebowsandarrows:copper_arrow",
+    "morebowsandarrows:gold_arrow",
+    "morebowsandarrows:diamond_arrow",
+    "morebowsandarrows:netherite_arrow"
+  ]
+}

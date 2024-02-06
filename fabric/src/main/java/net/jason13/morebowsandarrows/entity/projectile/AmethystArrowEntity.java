@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package net.jason13.morebowsandarrows.entity.projectile;
 
 import net.jason13.morebowsandarrows.entity.IAbstractModArrow;
@@ -18,33 +13,33 @@ import net.minecraft.world.phys.EntityHitResult;
 import org.jetbrains.annotations.NotNull;
 
 public class AmethystArrowEntity extends AbstractArrow implements IAbstractModArrow {
-
-    public AmethystArrowEntity(EntityType ent, Level level) {
-        super(ent, level);
-        this.setBaseDamage(this.getBaseDamage() + 3.0);
-    }
-
-    public AmethystArrowEntity(Level level, LivingEntity liveEntity) {
-        super(FabricEntityTypeRegistry.AMETHYST_ARROW, liveEntity, level);
-        this.setBaseDamage(this.getBaseDamage() + 3.0);
-    }
-
-    public AmethystArrowEntity(Level level, double x, double y, double z) {
-        super(FabricEntityTypeRegistry.AMETHYST_ARROW, x, y, z, level);
-        this.setBaseDamage(this.getBaseDamage() + 3.0);
-    }
-
-    public void onHitEntity(@NotNull EntityHitResult hitResult) {
-        checkArrowEntityDamage(this, hitResult);
-        super.onHitEntity(hitResult);
-    }
-
-    public void onHitBlock(@NotNull BlockHitResult hitResult) {
-        checkArrowBlockDamage(this, hitResult);
-        super.onHitBlock(hitResult);
-    }
-
-    protected @NotNull ItemStack getPickupItem() {
-        return new ItemStack(FabricItemRegistry.AMETHYST_ARROW_ITEM);
-    }
+  
+  public AmethystArrowEntity(EntityType ent, Level level) {
+    super(ent, level);
+    this.setBaseDamage(this.getBaseDamage() + 3.0);
+  }
+  
+  public AmethystArrowEntity(Level level, LivingEntity liveEntity) {
+    super((EntityType) FabricEntityTypeRegistry.AMETHYST_ARROW_ENTITY, liveEntity, level);
+    this.setBaseDamage(this.getBaseDamage() + 3.0);
+  }
+  
+  public AmethystArrowEntity(Level level, double x, double y, double z) {
+    super((EntityType) FabricEntityTypeRegistry.AMETHYST_ARROW_ENTITY, x, y, z, level);
+    this.setBaseDamage(this.getBaseDamage() + 3.0);
+  }
+  
+  public void onHitEntity(@NotNull EntityHitResult hitResult) {
+    checkArrowEntityDamage(this, hitResult);
+    super.onHitEntity(hitResult);
+  }
+  
+  public void onHitBlock(@NotNull BlockHitResult hitResult) {
+    checkArrowBlockDamage(this, hitResult);
+    super.onHitBlock(hitResult);
+  }
+  
+  protected @NotNull ItemStack getPickupItem() {
+    return new ItemStack(FabricItemRegistry.AMETHYST_ARROW_ITEM);
+  }
 }

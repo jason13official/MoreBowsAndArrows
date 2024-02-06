@@ -16,28 +16,19 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class AmethystArrowItem extends ArrowItem {
-  
-  
   public AmethystArrowItem(Properties properties) {
     super(properties);
   }
   
+  @Override
   public void appendHoverText(@NotNull ItemStack itemStack, @Nullable Level level, List<Component> tooltip, @NotNull TooltipFlag tooltipFlag) {
     tooltip.add(Component.translatable("morebowsandarrows.text.amethyst_arrow_lore"));
     tooltip.add(Component.translatable("morebowsandarrows.text.amethyst_arrow_damage"));
     super.appendHoverText(itemStack, level, tooltip, tooltipFlag);
   }
   
-  public @NotNull AbstractArrow createArrow(@NotNull Level level, @NotNull ItemStack arrowItem, @NotNull LivingEntity liveEntity) {
-    if (true) {
-      return new AmethystArrowEntity(level, liveEntity);
-    } else {
-      Arrow arrow = new Arrow(level, liveEntity);
-      if (liveEntity instanceof Player && ((Player)liveEntity).getAbilities().instabuild) {
-        arrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
-      }
-      
-      return arrow;
-    }
+  @Override
+  public AbstractArrow createArrow(Level level, ItemStack itemStack, LivingEntity livingEntity) {
+    return new AmethystArrowEntity(level, livingEntity);
   }
 }

@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.jason13.monolib.methods.BlockMethods;
 import net.jason13.morebowsandarrows.callback.FabricAnvilUpdateEvent;
-import net.jason13.morebowsandarrows.entity.projectile.AmethystArrowEntity;
+import net.jason13.morebowsandarrows.entity.projectile.*;
 import net.jason13.morebowsandarrows.mixin.FabricAnvilMenuMixin;
 import net.jason13.morebowsandarrows.registry.FabricBowRepairRegistry;
 import net.jason13.morebowsandarrows.registry.FabricItemCreativeModeTabRegistry;
@@ -60,6 +60,158 @@ public class FabricExampleMod implements ModInitializer {
             @Override
             protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
                 AmethystArrowEntity arrow = new AmethystArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.BAMBOO_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                BambooArrowEntity arrow = new BambooArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.BLAZE_ROD_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                BlazeRodArrowEntity arrow = new BlazeRodArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.BONE_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                BoneArrowEntity arrow = new BoneArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.CACTUS_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                CactusArrowEntity arrow = new CactusArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.COAL_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                CoalArrowEntity arrow = new CoalArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.COPPER_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                CopperArrowEntity arrow = new CopperArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.DIAMOND_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                DiamondArrowEntity arrow = new DiamondArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.EMERALD_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                EmeraldArrowEntity arrow = new EmeraldArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.ENDER_PEARL_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                EnderPearlArrowEntity arrow = new EnderPearlArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.FLINT_AND_STEEL_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                FlintAndSteelArrowEntity arrow = new FlintAndSteelArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.FLINT_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                FlintArrowEntity arrow = new FlintArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.GOLD_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                GoldArrowEntity arrow = new GoldArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.IRON_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                IronArrowEntity arrow = new IronArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.LAPIS_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                LapisArrowEntity arrow = new LapisArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.MOSS_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                MossArrowEntity arrow = new MossArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.NETHERITE_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                NetheriteArrowEntity arrow = new NetheriteArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.OBSIDIAN_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                ObsidianArrowEntity arrow = new ObsidianArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.PAPER_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                PaperArrowEntity arrow = new PaperArrowEntity(level, position.x(), position.y(), position.z());
+                arrow.pickup = AbstractArrow.Pickup.ALLOWED;
+                return arrow;
+            }
+        });
+        DispenserBlock.registerBehavior(FabricItemRegistry.TNT_ARROW_ITEM, new AbstractProjectileDispenseBehavior() {
+            @Override
+            protected Projectile getProjectile(Level level, Position position, ItemStack itemStack) {
+                TNTArrowEntity arrow = new TNTArrowEntity(level, position.x(), position.y(), position.z());
                 arrow.pickup = AbstractArrow.Pickup.ALLOWED;
                 return arrow;
             }
