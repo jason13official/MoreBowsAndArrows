@@ -78,7 +78,7 @@ dependencies {
     compileOnly project(":common")
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
 
-    implementation fg.deobf("curse.maven:monolib-968432:5079164")
+    implementation fg.deobf("curse.maven:monolib-968432:${monolib_forge_version}")
 }
 
 tasks.withType(JavaCompile).configureEach {

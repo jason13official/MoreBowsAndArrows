@@ -27,7 +27,6 @@ public class BlazeRodArrowItem extends ArrowItem {
     }
 
     public void appendHoverText(@NotNull ItemStack itemStack, @Nullable Level level, List<Component> tooltip, @NotNull TooltipFlag tooltipFlag) {
-        tooltip.add(Component.translatable("morebowsandarrows.text.blaze_rod_arrow_lore"));
         tooltip.add(Component.translatable("morebowsandarrows.text.blaze_rod_arrow_damage"));
         super.appendHoverText(itemStack, level, tooltip, tooltipFlag);
     }

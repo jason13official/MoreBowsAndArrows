@@ -19,7 +19,6 @@ public class StrippedBambooBowItem extends BowItem {
 
     @Override
     public void appendHoverText(@NotNull ItemStack itemStack, @Nullable Level level, List<Component> tooltip, @NotNull TooltipFlag tooltipFlag) {
-        tooltip.add(Component.translatable("morebowsandarrows.text.bamboo_bow_lore"));
         tooltip.add(Component.translatable("morebowsandarrows.text.bamboo_bow_damage"));
         super.appendHoverText(itemStack, level, tooltip, tooltipFlag);
     }

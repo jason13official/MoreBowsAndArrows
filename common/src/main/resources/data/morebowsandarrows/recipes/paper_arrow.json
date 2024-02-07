@@ -4,7 +4,6 @@
       "C",
       "S",
       "F"
-      
   ],
   "key": {
     "C": {
@@ -18,7 +17,7 @@
     }
   },
   "result": {
-      "item": "morebowsandarrows:copper_arrow",
+      "item": "morebowsandarrows:paper_arrow",
       "count": 1
   }
 }

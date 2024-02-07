@@ -27,7 +27,6 @@ public class CopperArrowItem extends ArrowItem {
     }
 
     public void appendHoverText(@NotNull ItemStack itemStack, @Nullable Level level, List<Component> tooltip, @NotNull TooltipFlag tooltipFlag) {
-        tooltip.add(Component.translatable("morebowsandarrows.text.copper_arrow_lore"));
         tooltip.add(Component.translatable("morebowsandarrows.text.copper_arrow_damage"));
         super.appendHoverText(itemStack, level, tooltip, tooltipFlag);
     }

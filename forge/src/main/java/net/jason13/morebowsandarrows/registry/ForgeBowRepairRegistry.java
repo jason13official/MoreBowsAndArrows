@@ -4,7 +4,11 @@ import net.jason13.morebowsandarrows.item.bow.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraftforge.event.AnvilUpdateEvent;
+
+import java.util.Map;
 
 public class ForgeBowRepairRegistry {
   public static void register(AnvilUpdateEvent event) {
@@ -214,6 +218,8 @@ public class ForgeBowRepairRegistry {
     // END OF THE ALMIGHTY SWITCH STATEMENT (for repairing bows in an anvil)
     
     if (flagged && (player.experienceLevel >= 1 || player.isCreative())) {
+      Map<Enchantment, Integer> map = EnchantmentHelper.getEnchantments(slotLeft);
+      EnchantmentHelper.setEnchantments(map, slotOutput);
       event.setOutput(slotOutput);
     }
     

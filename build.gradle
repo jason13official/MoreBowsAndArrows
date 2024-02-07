@@ -85,7 +85,9 @@ subprojects {
                 "mod_author": mod_author,
                 "mod_id": mod_id,
                 "license": license,
-                "description": project.description
+                "description": project.description,
+                "monolib_forge_version": monolib_forge_version,
+                "monolib_fabric_version": monolib_fabric_version
         ]
 
         filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', '*.mixins.json']) {

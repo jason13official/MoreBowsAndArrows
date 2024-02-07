@@ -4,10 +4,7 @@
   "key": {
     "W": [
       {
-        "item": "minecraft:bamboo_log"
-      },
-      {
-        "item": "minecraft:bamboo_wood"
+        "item": "minecraft:bamboo_block"
       }
     ],
     "#": {
