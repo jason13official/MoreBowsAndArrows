@@ -15,7 +15,6 @@ public class FabricExampleModClient implements ClientModInitializer {
   }
   
   private void registerArrowRenderers() {
-    // EntityRendererRegistry.register(FabricEntityTypeRegistry.AMETHYST_ARROW_ENTITY, AmethystArrowRenderer::new);
     
     EntityRendererRegistry.register(FabricEntityTypeRegistry.FLINT_AND_STEEL_ARROW_ENTITY, FlintAndSteelArrowRenderer::new);
     EntityRendererRegistry.register(FabricEntityTypeRegistry.ENDER_PEARL_ARROW_ENTITY, EnderPearlArrowRenderer::new);
@@ -34,9 +33,11 @@ public class FabricExampleModClient implements ClientModInitializer {
     EntityRendererRegistry.register(FabricEntityTypeRegistry.OBSIDIAN_ARROW_ENTITY, ObsidianArrowRenderer::new);
     EntityRendererRegistry.register(FabricEntityTypeRegistry.FLINT_ARROW_ENTITY, FlintArrowRenderer::new);
     
-    EntityRendererRegistry.register(FabricEntityTypeRegistry.IRON_ARROW_ENTITY, IronArrowRenderer::new);
     EntityRendererRegistry.register(FabricEntityTypeRegistry.COPPER_ARROW_ENTITY, CopperArrowRenderer::new);
     EntityRendererRegistry.register(FabricEntityTypeRegistry.GOLD_ARROW_ENTITY, GoldArrowRenderer::new);
+    
+    
+    EntityRendererRegistry.register(FabricEntityTypeRegistry.IRON_ARROW_ENTITY, IronArrowRenderer::new);
     EntityRendererRegistry.register(FabricEntityTypeRegistry.DIAMOND_ARROW_ENTITY, DiamondArrowRenderer::new);
     EntityRendererRegistry.register(FabricEntityTypeRegistry.NETHERITE_ARROW_ENTITY, NetheriteArrowRenderer::new);
   }

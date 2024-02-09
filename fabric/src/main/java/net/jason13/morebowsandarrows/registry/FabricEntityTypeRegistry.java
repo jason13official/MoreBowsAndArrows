@@ -6,11 +6,26 @@ import net.jason13.morebowsandarrows.entity.projectile.*;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 
 public class FabricEntityTypeRegistry {
+  
+  private static <T extends Entity> EntityType<T> register(String s, EntityType<T> entityType) {
+    return Registry.register(BuiltInRegistries.ENTITY_TYPE, CommonConstants.MOD_ID + ":" + s, entityType);
+  }
+  
+  private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {
+    return FabricEntityTypeBuilder.create(MobCategory.MISC, factory).dimensions(EntityDimensions.fixed(0.5f, 0.5f)).trackRangeBlocks(4).trackedUpdateRate(20).build();
+  }
+  
+  public static void init() {}
+  
+  public static void initializeOld() {
+    // brings this class into context for Fabric ?
+  }
   
   public static final EntityType<AmethystArrowEntity> AMETHYST_ARROW_ENTITY = Registry.register(BuiltInRegistries.ENTITY_TYPE,
     new ResourceLocation(CommonConstants.MOD_ID, "amethyst_arrow"),
@@ -96,4 +111,5 @@ public class FabricEntityTypeRegistry {
   public static void register() {
     CommonConstants.LOG.info("FabricEntityTypeRegistry " + CommonConstants.MOD_ID);
   }
+  
 }

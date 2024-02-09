@@ -27,12 +27,12 @@ public class TNTArrowEntity extends AbstractArrow implements IAbstractModArrow {
     }
 
     public TNTArrowEntity(Level level, LivingEntity liveEntity) {
-        super((EntityType) FabricEntityTypeRegistry.TNT_ARROW_ENTITY, liveEntity, level);
+        super(FabricEntityTypeRegistry.TNT_ARROW_ENTITY, liveEntity, level);
         this.setBaseDamage(this.getBaseDamage() + 5.0);
     }
 
     public TNTArrowEntity(Level level, double x, double y, double z) {
-        super((EntityType) FabricEntityTypeRegistry.TNT_ARROW_ENTITY, x, y, z, level);
+        super(FabricEntityTypeRegistry.TNT_ARROW_ENTITY, x, y, z, level);
         this.setBaseDamage(this.getBaseDamage() + 5.0);
     }
 

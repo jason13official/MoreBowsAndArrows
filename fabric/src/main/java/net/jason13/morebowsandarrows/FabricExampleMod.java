@@ -7,6 +7,7 @@ import net.jason13.morebowsandarrows.callback.FabricAnvilUpdateEvent;
 import net.jason13.morebowsandarrows.entity.projectile.*;
 import net.jason13.morebowsandarrows.mixin.FabricAnvilMenuMixin;
 import net.jason13.morebowsandarrows.registry.FabricBowRepairRegistry;
+import net.jason13.morebowsandarrows.registry.FabricEntityTypeRegistry;
 import net.jason13.morebowsandarrows.registry.FabricItemCreativeModeTabRegistry;
 import net.jason13.morebowsandarrows.registry.FabricItemRegistry;
 import net.minecraft.core.Position;
@@ -45,6 +46,7 @@ public class FabricExampleMod implements ModInitializer {
         
         FabricItemRegistry.register();
         FabricItemCreativeModeTabRegistry.register();
+        FabricEntityTypeRegistry.initializeOld();
         
         registerDispenserProjectileBehaviors();
         

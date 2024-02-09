@@ -1,3 +1,47 @@
 accessWidener v1 named
 accessible field net/minecraft/world/level/block/DispenserBlock DISPENSER_REGISTRY Ljava/util/Map;
 accessible field net/minecraft/world/entity/Entity level Lnet/minecraft/world/level/Level;
+# accessible	field	net/minecraft/class_1297	field_6002	Lnet/minecraft/class_1937;
+
+# accessible	field	net/minecraft/class_1665	field_7590	Lit/unimi/dsi/fastutil/ints/IntOpenHashSet;
+# accessible	field	net/minecraft/class_1665	field_7579	Ljava/util/List;
+# accessible	field	net/minecraft/class_1665	field_7584	Lnet/minecraft/class_3414;
+# extendable	method	net/minecraft/class_1665	method_26352	()V
+# extendable	method	net/minecraft/class_1665	method_26351	()Z
+# accessible	field	net/minecraft/class_1665	field_7586	Lnet/minecraft/class_2680;
+# accessible	field	net/minecraft/class_1665	field_7588	Z
+# accessible	field	net/minecraft/class_1750	field_7903	Lnet/minecraft/class_2338;
+# mutable	field	net/minecraft/class_1750	field_7903	Lnet/minecraft/class_2338;
+# accessible	field	net/minecraft/class_1297	field_5974	Lnet/minecraft/class_5819;
+# accessible	field	net/minecraft/class_1297	field_6002	Lnet/minecraft/class_1937;
+# extendable	method	net/minecraft/class_1538	method_6960	(I)V
+# extendable	method	net/minecraft/class_1665	method_20011	()Lnet/minecraft/class_3414;
+# accessible	field	net/minecraft/class_1665	field_7571	D
+# accessible	method	net/minecraft/class_1747	method_7709	(Lnet/minecraft/class_1750;Lnet/minecraft/class_2680;)Z
+# accessible	field	net/minecraft/class_1676	field_28646	Z
+# accessible	field	net/minecraft/class_1676	field_23740	Z
+# accessible	method	net/minecraft/class_1676	method_26961	()Z
+# accessible	field	net/minecraft/class_1297	field_35588	Lnet/minecraft/class_2680;
+# accessible	method	net/minecraft/class_1297	method_5630	()V
+# accessible	method	net/minecraft/class_1297	method_24515	()Lnet/minecraft/class_2338;
+# accessible	field	net/minecraft/class_1297	field_22468	Lnet/minecraft/class_2338;
+# accessible	field	net/minecraft/class_1297	field_5951	I
+# accessible	method	net/minecraft/class_1297	method_18379	()V
+# accessible	method	net/minecraft/class_1297	method_5839	()V
+# accessible	method	net/minecraft/class_1297	method_5876	()Z
+# accessible	field	net/minecraft/class_1297	field_5953	Z
+# accessible	method	net/minecraft/class_1665	method_26352	()V
+# accessible	method	net/minecraft/class_1665	method_26351	()Z
+# accessible	field	net/minecraft/class_1665	field_7576	I
+# accessible	method	net/minecraft/class_1665	method_7446	()V
+# accessible	method	net/minecraft/class_1665	method_7434	(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_3966;
+# accessible	method	net/minecraft/class_1676	method_26960	(FF)F
+# accessible	method	net/minecraft/class_1665	method_7436	()F
+# accessible	method	net/minecraft/class_1676	method_7488	(Lnet/minecraft/class_239;)V
+# mutable	field	net/minecraft/class_3853	field_17067	Ljava/util/Map;
+# mutable	field	net/minecraft/class_3853	field_17724	Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+# extendable	class	net/minecraft/class_3853$class_4161
+# extendable	class	net/minecraft/class_3853$class_4165
+# extendable	class	net/minecraft/class_3853$class_4163
+# extendable	class	net/minecraft/class_3853$class_4164
+# extendable	class	net/minecraft/class_3853$class_4167
